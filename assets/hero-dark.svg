@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Indra Surya Adinata, frontend developer and Informatics student">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080F1D"/><stop offset="1" stop-color="#0D1830"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#64E9DB"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#64E9DB" stop-opacity=".21"/><stop offset="1" stop-color="#64E9DB" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#25314B" stroke-width="1" opacity=".4"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="25"/></filter>
+</defs>
+<rect width="1280" height="420" fill="url(#bg)" rx="16"/>
+<rect width="1280" height="420" fill="url(#grid)" opacity=".26" rx="16"/>
+<circle cx="1000" cy="198" r="250" fill="url(#glow)"/>
+<circle cx="1150" cy="55" r="95" fill="#A78BFA" opacity=".07" filter="url(#blur)"/>
+<path d="M0 0H1280" stroke="url(#accent)" stroke-width="7"/>
+<g font-family="Inter, Segoe UI, Arial, sans-serif">
+  <rect x="68" y="55" width="38" height="38" rx="10" fill="url(#accent)"/>
+  <text x="87" y="81" text-anchor="middle" font-size="18" font-weight="800" fill="#080F1D">IA</text>
+  <text x="121" y="81" font-size="17" font-weight="700" letter-spacing="3" fill="#F4F7FF">DRAYATA.DEV</text>
+  <text x="68" y="148" font-size="17" font-weight="700" letter-spacing="4" fill="#64E9DB">HELLO, I'M</text>
+  <text x="65" y="225" font-size="58" font-weight="800" letter-spacing="-2" fill="#F4F7FF">INDRA SURYA</text>
+  <text x="65" y="289" font-size="58" font-weight="800" letter-spacing="-2" fill="url(#accent)">ADINATA.</text>
+  <text x="69" y="333" font-size="20" fill="#98A9C8">Frontend Developer  /  Informatics Student</text>
+  <rect x="68" y="355" width="235" height="30" rx="15" fill="#64E9DB" fill-opacity=".12" stroke="#64E9DB" stroke-opacity=".45"/>
+  <circle cx="84" cy="370" r="5" fill="#64E9DB"/>
+  <text x="99" y="375" font-size="13" letter-spacing="1.1" font-weight="650" fill="#64E9DB">BUILD. LEARN. IMPROVE.</text>
+</g>
+<g transform="translate(837 85)">
+  <rect x="0" y="0" width="368" height="260" rx="19" fill="#050911" opacity=".6" transform="translate(9 11)"/>
+  <rect x="0" y="0" width="368" height="260" rx="19" fill="#101F36" stroke="#25314B" stroke-width="1.6"/>
+  <path d="M0 44H368" stroke="#25314B"/>
+  <circle cx="24" cy="22" r="6" fill="#FF6B81"/><circle cx="45" cy="22" r="6" fill="#FFD166"/><circle cx="66" cy="22" r="6" fill="#49D8A5"/>
+  <text x="337" y="27" font-size="12" text-anchor="end" font-family="monospace" fill="#98A9C8">profile.ts</text>
+  <g font-family="'Courier New', monospace" font-size="18">
+    <text x="24" y="91" fill="#A78BFA">const</text><text x="90" y="91" fill="#F4F7FF"> developer =</text><text x="247" y="91" fill="#64E9DB"> {</text>
+    <text x="45" y="127" fill="#98A9C8">focus:</text><text x="129" y="127" fill="#64E9DB">"frontend"</text><text x="246" y="127" fill="#F4F7FF">,</text>
+    <text x="45" y="162" fill="#98A9C8">mindset:</text><text x="141" y="162" fill="#64E9DB">"builder"</text><text x="242" y="162" fill="#F4F7FF">,</text>
+    <text x="45" y="197" fill="#98A9C8">status:</text><text x="130" y="197" fill="#64E9DB">"learning"</text>
+    <text x="23" y="231" fill="#64E9DB">};</text>
+  </g>
+</g>
+<g opacity=".5" stroke="url(#accent)" fill="none" stroke-width="1.5"><path d="M744 56l42 0 16 16 0 48"/><circle cx="744" cy="56" r="3" fill="#64E9DB"/><path d="M760 372h40l22-22"/></g>
+</svg>
